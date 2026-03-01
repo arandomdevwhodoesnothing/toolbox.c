@@ -3,7 +3,7 @@
 gnu coreutils reimplantation. Written in C from Scratch. Note: Some commands may not work or not implemented
 You can find pre-made linux binaries at linux-binaries repository 
 
-Compress the tar.iz4 file to install toolbox 
+Compress the tar.lz4 file to install toolbox 
 
 ## Tools Supported
   
