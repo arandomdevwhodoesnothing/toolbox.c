@@ -68,3 +68,5 @@ New Update: Addeed dd, sync, readlink, env, test, tr etc.
 - **true** - Return successful exit status
 - **false** - Return unsuccessful exit status
 - **test** / **[** - Evaluate conditional expressions with support for file tests (-b, -c, -d, -e, -f, -g, -G, -h, -L, -k, -p, -r, -s, -S, -t, -u, -w, -x, -O), string comparisons (=, !=, -z, -n), numeric comparisons (-eq, -ne, -gt, -ge, -lt, -le), and combinators (!, -a, -o, parentheses)
+
+**Total:** 45 Tools. 
