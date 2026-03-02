@@ -4,7 +4,7 @@ gnu coreutils reimplantation. Written in C from Scratch. Note: Some commands may
 
 Compress the tar.lz4 file to install toolbox 
 
-New Update: Addeed dd, sync, readlink, env, test, tr etc.
+New Update: Addeed dd, sync, readlink, env, test, tr, fixed tac, etc.
 
 ## Tools Supported
 
