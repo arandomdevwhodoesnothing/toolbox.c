@@ -1,6 +1,9 @@
 # toolbox.c
 
-gnu coreutils reimplantation. Written in C from Scratch. Note: Some commands may not work or not implemented. This Project is under MIT License 
+**NOT ASSOCIATED WITH ANDROID TOOLBOX**
+gnu coreutils reimplantation. Written in C from Scratch.
+ 
+Note: Some commands may not work or not implemented. This Project is under MIT License 
 
 Compress the tar.lz4 file to install toolbox 
 
