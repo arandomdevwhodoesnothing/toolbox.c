@@ -10,6 +10,8 @@ Compress the tar.lz4 file to install toolbox
 
 New Update: Addeed dd, sync, readlink, env, test, tr, fixed tac, etc.
 
+It's Public Domain, Do whatever with it. 
+
 ## Tools Supported
 
 # File & Directory Operations
