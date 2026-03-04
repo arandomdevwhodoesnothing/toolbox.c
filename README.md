@@ -2,7 +2,9 @@
 
 **NOT ASSOCIATED WITH ANDROID TOOLBOX**
 
-gnu coreutils reimplantation. Written in C from Scratch. Also Includes It's Own Shell
+gnu coreutils reimplantation. Written in C from Scratch. 
+
+Also Includes It's Own Shell, Read about toolsh at `toolsh.md`
  
 Note: Some commands may not work or not implemented. This Project is under MIT License 
 
