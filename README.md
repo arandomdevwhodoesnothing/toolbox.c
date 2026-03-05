@@ -8,7 +8,7 @@ Additions: Includes It's Own Shell, Read about toolsh at `toolsh.md`, Also Inclu
  
 Note: Some commands may not work or not implemented. This Project is under MIT License 
 
-Compress the tar.lz4 file to install toolbox 
+Compress the toolbox.tar.gz file to install toolbox 
 
 New Update: Added dd, sync, readlink, env, test, tr, fixed tac, etc.
 
