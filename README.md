@@ -4,7 +4,7 @@
 
 gnu coreutils reimplantation. Written in C from Scratch. 
 
-Also Includes It's Own Shell, Read about toolsh at `toolsh.md`
+Additions: Includes It's Own Shell, Read about toolsh at `toolsh.md`, Also Includes it's own Libc Implemention, Read about libtool at `libtool.md`
  
 Note: Some commands may not work or not implemented. This Project is under MIT License 
 
