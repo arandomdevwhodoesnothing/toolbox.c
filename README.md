@@ -11,8 +11,7 @@ Note: Some commands may not work or not implemented. This Project is under MIT L
 Compress the toolbox.tar.gz file to install toolbox 
 
 New Update: Added `toolsh`, `libtool`
-
-Licensed under MIT License 
+ 
 ## Tools Supported
 
 # File & Directory Operations
