@@ -2,7 +2,7 @@
 
 **NOT ASSOCIATED WITH ANDROID TOOLBOX**
 
-gnu coreutils reimplantation. Written in C from Scratch. 
+gnu tools reimplantation. Written in C from Scratch. 
 
 Additions: Includes It's Own Shell, Read about toolsh at `toolsh.md`, Also Includes it's own Libc Implemention, Read about libtool at `libtool.md`
  
@@ -10,7 +10,7 @@ Note: Some commands may not work or not implemented. This Project is under MIT L
 
 Compress the toolbox.tar.gz file to install toolbox 
 
-New Update: Added dd, sync, readlink, env, test, tr, fixed tac, etc.
+New Update: Added `toolsh`, `libtool`
 
 Licensed under MIT License 
 ## Tools Supported
