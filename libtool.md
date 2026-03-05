@@ -15,12 +15,12 @@ make demo     # compiles and runs examples/hello.c
 
 ```bash
 gcc -ffreestanding -nostdlib -nostdinc -no-pie \
-    -Iinclude your_program.c crt0.o libc.a -o your_program
+    -Iinclude your_program.c crt0.o libtool.a -o your_program
 ```
 
 Your program just needs:
 ```c
-#include "libc.h"
+#include "libtool.h"
 
 int main(int argc, char **argv, char **envp) {
     printf("Hello, AArch64!\n");
@@ -42,23 +42,3 @@ int main(int argc, char **argv, char **envp) {
 - **Process**: `exit/_exit/abort/atexit/getpid/getuid/getgid`
 - **Env**: `getenv`
 - **Assert**: `assert()` macro with file/line reporting
-
-## File Structure
-
-```
-libc-arm64/
-├── include/
-│   ├── libc.h              # Single header — all declarations
-│   └── syscall.h           # AArch64 syscall numbers + raw wrappers
-├── src/
-│   ├── arch/aarch64/
-│   │   └── syscall.s       # _start entry + svc #0 wrappers
-│   ├── start.c             # __libc_start_main, process, file syscalls
-│   ├── malloc.c            # Heap allocator on mmap
-│   ├── stdio.c             # Buffered FILE* I/O
-│   ├── printf.c            # printf/vsnprintf/fprintf/snprintf
-│   └── string.c            # mem*, str*, math, qsort
-├── tests/test_all.c        # Test suite
-├── examples/hello.c        # Demo program
-└── Makefile
-```
