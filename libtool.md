@@ -1,7 +1,7 @@
 # libtool — Freestanding libc for Linux AArch64
 
 A from-scratch libc for 64-bit ARM Linux and Toolbox. Zero glibc, zero `-lm`, zero `-lc`.
-Compiled with `-ffreestanding -nostdlib -nostdinc`.
+Compiled with `-ffreestanding -nostdlib -nostdinc`. For x86-64 Support, Consider cross-compiling
 
 ## Build & Run
 
@@ -26,7 +26,7 @@ int main(int argc, char **argv, char **envp) {
     printf("Hello, AArch64!\n");
     return 0;
 }
-```.
+```
 
 ## What's implemented
 
